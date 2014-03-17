@@ -1,0 +1,33 @@
+Cambios por hacer:
+- Funcion getChar
+- Comprobar ajustes en la tabla de codigos
+	Es una variante del cp437
+- Version Linux
+- Comentar Codigos y Especificar Licencia en los Archivos
+
+---------------------------------------------------------------
+Cambios en la version 0.8
+.Problema fin fichero en windows solucionado
+	Era facil pero cohones !
+---------------------------------------------------------------
+Cambios en la version 0.7
+·Unir convert.h con funciones.h en funciones.h
+·Gestion de Marcas
+---------------------------------------------------------------
+Cambios en la version 0.6
+·Conversion de Caracteres
+·Identacion XML
+---------------------------------------------------------------
+Cambios en la version 0.5
+·cierrer caracteres
+·evaluación etiquetas
+---------------------------------------------------------------
+Cambios en la version 0.4
+·re-estructuracion del codigo
+	agrupación de las constantes en constantes.h
+·incorporacion de un fichero makefile para ayudar a la compilacion
+	para compilar: make
+	para limpiar: make clean
+---------------------------------------------------------------
+Cambios hechos en la version 0.3
+·sustituir los caracteres <> por []  (parece q funciona bien!)
