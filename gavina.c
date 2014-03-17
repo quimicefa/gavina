@@ -45,7 +45,7 @@ int doProcesarIO()
     fiEntrada = fopen(fnEntrada, "r+b"); 
 	if ( fiEntrada == NULL ) {
 		printf(ERROR_ENTRADA);
-		exit(EXIT_FAILURE);
+		return EXIT_FAILURE;
 		}
 	else {
 		printf(SUCCESS_ENTRADA);
@@ -54,7 +54,7 @@ int doProcesarIO()
     fiSalida  = fopen(fnSalida, "w+b");
 	if ( fiSalida == NULL ) {
 		printf(ERROR_SALIDA);
-		exit(EXIT_FAILURE);
+		return EXIT_FAILURE;
 		}
 	else {
 		printf(SUCCESS_SALIDA);
